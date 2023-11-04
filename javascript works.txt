@@ -1,0 +1,64 @@
+var cars = ["Toyota","Nissan","Honda",30,true]
+cars[2]
+cars[0]
+var motorBikes = [];
+var airPlanes = new Array("AirBus","Being");
+airPlanes[0]
+airPlanes[1]
+cars.length
+motorBikes.length
+cars.push("Suzuki")
+motorBikes.push("Honda")
+cars.pop()
+
+---------------------------------------------------------------------------------------------------------------------
+
+heights = [4.9,5.2,7]
+heights.push('8','6')
+heights.pop()
+heights[3]
+heights.shift()
+heights.unshift("Toyota")
+heights.indexOf("Nissan")
+heights.indexOf(7)
+heights.indexOf('8')
+
+---------------------------------------------------------------------------------------------------------------------
+
+var student = new Object();
+undefined
+var student2 = {};
+undefined
+var student3 = {"firstName":"Niaml","age":18,"studentID":123};
+undefined
+student3
+{firstName: 'Niaml', age: 18, studentID: 123}age: 18firstName: "Niaml"studentID: 123[[Prototype]]: Object
+student
+{}
+student.firstName = "Dileep"
+'Dileep'
+student
+{firstName: 'Dileep'}firstName: "Dileep"[[Prototype]]: Object
+student3.smile = function() {alert("ha ha ha ha");}
+ƒ () {alert("ha ha ha ha");}
+student3.smile()
+undefined
+
+---------------------------------------------------------------------------------------------------------------------
+
+var telephone = {"name":"Suntel","brand":"Telecome","model":"2023","capasity":"100"};
+    
+undefined
+telephone.talk = function() {alert("bla bla bla");}
+ƒ () {alert("bla bla bla");}
+telephone.message = function() {alert("Give me a call!");}
+ƒ () {alert("Give me a call!");}
+telephone.talk()
+undefined
+telephone.message()
+undefined
+telephone.talk()
+
+undefined
+telephone.message()
+undefined
